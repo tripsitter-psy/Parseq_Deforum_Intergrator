@@ -1,0 +1,21 @@
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comfyui-parseq-deforum"
+version = "0.1.0"
+description = "A ComfyUI custom node that converts Parseq keyframe data into Deforum-compatible camera movements."
+authors = [
+    { name = "tripsitter-psy", email = "samuelharnischmacher@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "numpy"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/comfyui-parseq-deforum"
+Repository = "https://github.com/yourusername/comfyui-parseq-deforum.git"
